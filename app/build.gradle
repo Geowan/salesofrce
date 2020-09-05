@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+  api project(':libs:MobileSync')
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'// From node_modules
+    implementation 'com.github.gturedi:stateful-layout:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'org.michaelbel:bottomsheet:1.2.3'
+
+
+
+}
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        targetSdkVersion 29
+        minSdkVersion 23
+    }
+  
+  buildTypes {
+      debug {
+         testCoverageEnabled = true
+      }
+   }
+
+  sourceSets {
+
+    main {
+      manifest.srcFile 'AndroidManifest.xml'
+      java.srcDirs = ['src']
+      resources.srcDirs = ['src']
+      aidl.srcDirs = ['src']
+      renderscript.srcDirs = ['src']
+      res.srcDirs = ['res']
+      assets.srcDirs = ['assets']
+    }
+  }
+  packagingOptions {
+    exclude 'META-INF/LICENSE'
+    exclude 'META-INF/LICENSE.txt'
+    exclude 'META-INF/DEPENDENCIES'
+    exclude 'META-INF/NOTICE'
+  }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

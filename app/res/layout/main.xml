@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="?android:colorBackground"
+	android:id="@+id/root">
+
+
+	<Toolbar
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:padding="3dp"
+		android:title="Contacts"
+		android:titleTextColor="@android:color/white"
+		app:theme="@style/ThemeOverlay.AppCompat.Dark"
+		app:actionViewClass="androidx.appcompat.widget.SearchView"
+		android:background="@color/sf__primary_color">
+	</Toolbar>
+
+
+	<EditText
+		android:layout_width="match_parent"
+		android:id="@+id/searchAccount"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:hint="Search contact"/>
+	<com.gturedi.views.StatefulLayout
+		android:id="@+id/stateful"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:stfAnimationEnabled="true"
+		app:stfInAnimation="@android:anim/slide_in_left"
+		app:stfOutAnimation="@android:anim/slide_out_right"
+		>
+
+		<androidx.recyclerview.widget.RecyclerView
+			android:layout_margin="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/accountsRecyclerview"
+			/>
+
+
+
+	</com.gturedi.views.StatefulLayout>
+
+</LinearLayout>
