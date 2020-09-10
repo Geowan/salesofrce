@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":libs:MobileSync" external.linked.project.path="$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync" external.root.project.path="$MODULE_DIR$/../../../../../.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":libs:MobileSync" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.0.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.0.1" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/res;file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/res;file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/res/rs/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/res;file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/res;file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/res;file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/res/rs/androidTest/debug" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/aidl_source_output_dir/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/res/rs/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/ap_generated_sources/debugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/renderscript_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/aidl_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/res/rs/androidTest/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build/generated/ap_generated_sources/debugUnitTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/main/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/build" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest" />
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/src" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../mobile_sdk/SalesforceMobileSDK-Android/libs/test/MobileSyncTest/src" isTestSource="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:rules:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.ext:junit:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup:tape:1.2.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: de.javakaffee:kryo-serializers:0.40@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.esotericsoftware:kryo:4.0.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.esotericsoftware:reflectasm:1.11.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.esotericsoftware:minlog:1.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.5.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.24@jar" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.auto.value:auto-value-annotations:1.6.5@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.paperdb:paperdb:2.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging:20.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.browser:browser:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-datatransport:17.0.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid:20.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:19.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: net.zetetic:android-database-sqlcipher:4.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite:2.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-backend-cct:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-components:16.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders-json:16.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-api:2.2.0@aar" level="project" />
+    <orderEntry type="module" module-name="SmartStore" />
+    <orderEntry type="module" module-name="SalesforceSDK" />
+    <orderEntry type="module" module-name="SalesforceAnalytics" />
+  </component>
+</module>

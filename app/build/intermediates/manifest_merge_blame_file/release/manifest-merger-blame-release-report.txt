@@ -1,0 +1,396 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.soradius.salesforce"
+4    android:installLocation="internalOnly"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml
+11    <!--
+12        GCM permission to ensure that only this application can
+13        receive the messages and registration result. This must be of
+14        the format <app-package-name>.C2D_MESSAGE for it to work.
+15    -->
+16    <permission
+16-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:12:5-14:47
+17        android:name="com.soradius.salesforce.C2D_MESSAGE"
+17-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:13:9-59
+18        android:protectionLevel="signature" />
+18-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:14:9-44
+19
+20    <uses-permission android:name="com.soradius.salesforce.C2D_MESSAGE" />
+20-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:16:5-75
+20-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:16:22-72
+21    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+21-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-80
+21-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-77
+22    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+22-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-71
+22-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-68
+23    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+23-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-74
+23-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-71
+24    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+24-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-74
+24-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-71
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-81
+25-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-78
+26    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- USE_FINGERPRINT is available from API 23 to API 27 and should be removed once minAPI > 27 -->
+26-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-88
+26-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:16:22-85
+27    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- USE_BIOMETRIC is available on API 28 and higher -->
+27-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:19:5-74
+27-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:19:22-71
+28    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+28-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:22:5-72
+28-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:22:22-69
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+29-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:22-76
+30    <uses-permission android:name="android.permission.INTERNET" />
+30-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+30-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:22-64
+31    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+31-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+31-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:22-65
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+32-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+33
+34    <application
+34-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:18:5-35:19
+35        android:name="com.soradius.salesforce.MainApplication"
+35-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:19:9-40
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.1] /home/geowan/.gradle/caches/transforms-2/files-2.1/ae3468b444d41a56f261ecbb8448fe17/core-1.3.1/AndroidManifest.xml:24:18-86
+37        android:extractNativeLibs="false"
+38        android:icon="@drawable/sf__icon"
+38-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:20:9-42
+39        android:label="@string/app_name"
+39-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:21:9-41
+40        android:manageSpaceActivity="com.salesforce.androidsdk.ui.ManageSpaceActivity" >
+40-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:22:9-87
+41        <activity
+41-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:23:9-142
+42            android:name="com.soradius.salesforce.details.AccountDetailsActivity"
+42-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:23:84-130
+43            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+43-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:23:19-83
+44        <!-- Launcher screen -->
+45        <activity
+45-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:25:9-34:20
+46            android:name="com.soradius.salesforce.MainActivity"
+46-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:26:13-41
+47            android:label="@string/app_name"
+47-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:27:13-45
+48            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+48-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:28:13-71
+49            <intent-filter>
+49-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:29:13-33:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:30:17-69
+50-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:30:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:32:17-77
+52-->/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/AndroidManifest.xml:32:27-74
+53            </intent-filter>
+54        </activity>
+55        <!-- SmartStore Inspector screen -->
+56        <activity
+56-->[:libs:SmartStore] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-17:52
+57            android:name="com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity"
+57-->[:libs:SmartStore] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-95
+58            android:exported="false"
+58-->[:libs:SmartStore] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-37
+59            android:theme="@style/SalesforceSDK" /> <!-- Metadata for supported app restrictions -->
+59-->[:libs:SmartStore] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-49
+60        <meta-data
+60-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-29:56
+61            android:name="android.content.APP_RESTRICTIONS"
+61-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-60
+62            android:resource="@xml/app_restrictions" /> <!-- Service required for authentication -->
+62-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-53
+63        <service
+63-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:32:9-42:19
+64            android:name="com.salesforce.androidsdk.auth.AuthenticatorService"
+64-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-79
+65            android:exported="true" >
+65-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36
+66            <intent-filter>
+66-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-37:29
+67                <action android:name="android.accounts.AccountAuthenticator" />
+67-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-80
+67-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-77
+68            </intent-filter>
+69
+70            <meta-data
+70-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-41:57
+71                android:name="android.accounts.AccountAuthenticator"
+71-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:40:17-69
+72                android:resource="@xml/authenticator" />
+72-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:41:17-54
+73        </service> <!-- Login activity -->
+74        <!--
+75            Launch mode of "singleInstance" ensures that the activity isn't restarted
+76            by a callback from Chrome custom tab when auth flow is complete. This is
+77            required for the Chrome custom tab auth flow to work correctly.
+78        -->
+79        <activity
+79-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:50:9-55:58
+80            android:name="com.salesforce.androidsdk.ui.LoginActivity"
+80-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-70
+81            android:launchMode="singleInstance"
+81-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-48
+82            android:screenOrientation="portrait"
+82-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-49
+83            android:theme="@style/SalesforceSDK"
+83-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-49
+84            android:windowSoftInputMode="adjustResize" /> <!-- Passcode activity -->
+84-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:55:13-55
+85        <activity
+85-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-63:77
+86            android:name="com.salesforce.androidsdk.ui.PasscodeActivity"
+86-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-73
+87            android:exported="false"
+87-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-37
+88            android:screenOrientation="portrait"
+88-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-49
+89            android:theme="@style/SalesforceSDK.Passcode"
+89-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:62:13-58
+90            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" /> <!-- Manage space activity -->
+90-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-74
+91        <activity
+91-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:66:9-69:52
+92            android:name="com.salesforce.androidsdk.ui.ManageSpaceActivity"
+92-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-76
+93            android:excludeFromRecents="true"
+93-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:68:13-46
+94            android:theme="@style/SalesforceSDK" /> <!-- Choose server activity -->
+94-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-49
+95        <activity
+95-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:72:9-76:52
+96            android:name="com.salesforce.androidsdk.ui.ServerPickerActivity"
+96-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-77
+97            android:excludeFromRecents="true"
+97-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:74:13-46
+98            android:screenOrientation="portrait"
+98-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:75:13-49
+99            android:theme="@style/SalesforceSDK" /> <!-- Account switcher activity -->
+99-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:76:13-49
+100        <activity
+100-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:79:9-83:52
+101            android:name="com.salesforce.androidsdk.ui.AccountSwitcherActivity"
+101-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:80:13-80
+102            android:excludeFromRecents="true"
+102-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:81:13-46
+103            android:screenOrientation="portrait"
+103-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:82:13-49
+104            android:theme="@style/SalesforceSDK" /> <!-- IDP webview activity -->
+104-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:83:13-49
+105        <activity
+105-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:86:9-91:52
+106            android:name="com.salesforce.androidsdk.auth.idp.IDPCodeGeneratorActivity"
+106-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:87:13-87
+107            android:excludeFromRecents="true"
+107-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:88:13-46
+108            android:exported="false"
+108-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:89:13-37
+109            android:screenOrientation="portrait"
+109-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:90:13-49
+110            android:theme="@style/SalesforceSDK" /> <!-- Dev info activity -->
+110-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:91:13-49
+111        <activity
+111-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:94:9-97:52
+112            android:name="com.salesforce.androidsdk.ui.DevInfoActivity"
+112-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:95:13-72
+113            android:exported="false"
+113-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:96:13-37
+114            android:theme="@style/SalesforceSDK" /> <!-- Receiver for IDP initiated login flow -->
+114-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:97:13-49
+115        <receiver
+115-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:100:9-108:20
+116            android:name="com.salesforce.androidsdk.auth.idp.IDPInititatedLoginReceiver"
+116-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:101:13-89
+117            android:exported="true" >
+117-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:102:13-36
+118            <intent-filter>
+118-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:103:13-107:29
+119                <action android:name="com.salesforce.IDP_LOGIN_REQUEST" />
+119-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:104:17-75
+119-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:104:25-72
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:106:17-76
+121-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:106:27-73
+122            </intent-filter>
+123        </receiver>
+124
+125        <service android:name="com.salesforce.androidsdk.push.SFDCFcmListenerService" >
+125-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:110:9-114:19
+125-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:110:18-86
+126            <intent-filter>
+126-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:111:13-113:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:112:17-78
+127-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:112:25-75
+128            </intent-filter>
+129        </service>
+130        <service
+130-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:115:9-119:19
+131            android:name="com.salesforce.androidsdk.push.SFDCRegistrationIntentService"
+131-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:116:13-88
+132            android:exported="false"
+132-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:117:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" >
+133-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:118:13-69
+134        </service>
+135
+136        <receiver
+136-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:121:9-123:40
+137            android:name="com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver"
+137-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:122:13-105
+138            android:exported="false" />
+138-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:123:13-37
+139
+140        <service
+140-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:125:9-128:72
+141            android:name="com.salesforce.androidsdk.push.PushService"
+141-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:126:13-70
+142            android:exported="false"
+142-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:127:13-37
+143            android:permission="android.permission.BIND_JOB_SERVICE" />
+143-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:128:13-69
+144        <service
+144-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:129:9-132:72
+145            android:name="com.salesforce.androidsdk.analytics.AnalyticsPublisherService"
+145-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:130:13-89
+146            android:exported="false"
+146-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:131:13-37
+147            android:permission="android.permission.BIND_JOB_SERVICE" />
+147-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:132:13-69
+148        <!--
+149             FirebaseMessagingService performs security checks at runtime,
+150             but set to not exported to explicitly avoid allowing another app to call it.
+151        -->
+152        <service
+152-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:28:9-34:19
+153            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+153-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:29:13-82
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:30:13-37
+155            <intent-filter android:priority="-500" >
+155-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:111:13-113:29
+156                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+156-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:112:17-78
+156-->[:libs:SalesforceSDK] /home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/library_manifest/release/AndroidManifest.xml:112:25-75
+157            </intent-filter>
+158        </service>
+159        <service
+159-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:35:9-41:19
+160            android:name="com.google.firebase.components.ComponentDiscoveryService"
+160-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:36:13-84
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:19.3.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/4add584b159a6f6c8766d094fd3bd7dc/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:37:13-37
+163            <meta-data
+163-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:38:13-40:85
+164                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+164-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:39:17-119
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-messaging:20.1.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/8c5c0c6d2b62b32f17f2f06bbe828e9a/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:40:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-datatransport:17.0.3] /home/geowan/.gradle/caches/transforms-2/files-2.1/56611b609838fc9fcee7571d7b349ede/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+167                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+167-->[com.google.firebase:firebase-datatransport:17.0.3] /home/geowan/.gradle/caches/transforms-2/files-2.1/56611b609838fc9fcee7571d7b349ede/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-datatransport:17.0.3] /home/geowan/.gradle/caches/transforms-2/files-2.1/56611b609838fc9fcee7571d7b349ede/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+170                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+170-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+172        </service>
+173
+174        <receiver
+174-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+175            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+175-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+176            android:exported="true"
+176-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+178            <intent-filter>
+178-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+179                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+179-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+179-->[com.google.firebase:firebase-iid:20.0.2] /home/geowan/.gradle/caches/transforms-2/files-2.1/4d6045d260eeb059037a6069bf1ea35e/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+180            </intent-filter>
+181        </receiver>
+182
+183        <provider
+183-->[com.google.firebase:firebase-common:19.3.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/4add584b159a6f6c8766d094fd3bd7dc/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+184            android:name="com.google.firebase.provider.FirebaseInitProvider"
+184-->[com.google.firebase:firebase-common:19.3.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/4add584b159a6f6c8766d094fd3bd7dc/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+185            android:authorities="com.soradius.salesforce.firebaseinitprovider"
+185-->[com.google.firebase:firebase-common:19.3.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/4add584b159a6f6c8766d094fd3bd7dc/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+186            android:exported="false"
+186-->[com.google.firebase:firebase-common:19.3.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/4add584b159a6f6c8766d094fd3bd7dc/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+187            android:initOrder="100" />
+187-->[com.google.firebase:firebase-common:19.3.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/4add584b159a6f6c8766d094fd3bd7dc/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+188
+189        <activity
+189-->[com.google.android.gms:play-services-base:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+190            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+190-->[com.google.android.gms:play-services-base:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-base:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.google.android.gms:play-services-base:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:17.0.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+197
+198        <service
+198-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/efbbba5d084fc199826cae07a87afbeb/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+199            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+199-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/efbbba5d084fc199826cae07a87afbeb/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+200            android:exported="false" >
+200-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/efbbba5d084fc199826cae07a87afbeb/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+201            <meta-data
+201-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/efbbba5d084fc199826cae07a87afbeb/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+202                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+202-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/efbbba5d084fc199826cae07a87afbeb/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+203                android:value="cct" />
+203-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/efbbba5d084fc199826cae07a87afbeb/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+204        </service>
+205        <service
+205-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+206            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+206-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+207            android:exported="false"
+207-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" >
+208-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+209        </service>
+210
+211        <receiver
+211-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+212            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+212-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+213            android:exported="false" />
+213-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/geowan/.gradle/caches/transforms-2/files-2.1/6ad0c29d1f56e2c780747a026a68fb45/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+214    </application>
+215
+216</manifest>

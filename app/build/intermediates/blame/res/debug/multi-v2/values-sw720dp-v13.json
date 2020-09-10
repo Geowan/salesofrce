@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/geowan/.gradle/caches/transforms-2/files-2.1/f4e78578a67c0d1c7937b8406e1b985e/jetified-bottomsheet-1.2.3/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "35",
+                        "endOffsets": "86"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Fri Sep 04 09:52:40 EAT 2020
+base.0=/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

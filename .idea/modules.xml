@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/MobileSync.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/MobileSync/MobileSync.iml" group="SoradiusSalesforce/libs/MobileSync" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceAnalytics/SalesforceAnalytics.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceAnalytics/SalesforceAnalytics.iml" group="SoradiusSalesforce/libs/SalesforceAnalytics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/SalesforceSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/SalesforceSDK/SalesforceSDK.iml" group="SoradiusSalesforce/libs/SalesforceSDK" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/SmartStore/SmartStore.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile_sdk/SalesforceMobileSDK-Android/libs/SmartStore/SmartStore.iml" group="SoradiusSalesforce/libs/SmartStore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SoradiusSalesforce.iml" filepath="$PROJECT_DIR$/.idea/modules/SoradiusSalesforce.iml" group="SoradiusSalesforce" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="SoradiusSalesforce/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/libs.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/libs.iml" group="SoradiusSalesforce/libs" />
+    </modules>
+  </component>
+</project>

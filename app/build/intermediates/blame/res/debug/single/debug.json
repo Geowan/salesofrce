@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/layout_activity_account_details.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/layout/activity_account_details.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/drawable_menu_display.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/drawable/menu_display.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/layout_account_details_recyclerview_row.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/layout/account_details_recyclerview_row.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/layout_account_list_recyclerview_row.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/layout/account_list_recyclerview_row.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/drawable_ic_baseline_search_24.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/drawable_menu_search.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/drawable/menu_search.xml"
+    },
+    {
+        "merged": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/geowan/Desktop/devapps/salesforce/force-droidapp/SoradiusSalesforce/app/res/layout/main.xml"
+    }
+]
